@@ -22,7 +22,7 @@ def fibonacciSequence(n):
 	for num in range(len(series)):
 		series[num] = str(series[num])
 
-	return ', '.join(series)
+	return (', '.join(series))
 
 
 def main():
